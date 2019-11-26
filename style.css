@@ -1,0 +1,738 @@
+/*----------------------------------------------
+CSS Settings For HTML Div ExactCenter
+------------------------------------------------*/
+hr
+{
+    border:0;
+    border-bottom:1px solid;
+    margin:10px -40px;
+    margin-bottom:30px
+}
+body {
+    background-color:#E8E8E8;
+}
+.big{
+    position: absolute;
+    width: 1520px;
+    height: 707px;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 0px;
+    box-sizing: border-box;
+    background-color:#E8E8E8;
+}
+#login
+
+{
+    position: absolute;
+    top: 175px;
+    background-color:#eee;
+    position: absolute;
+    margin-left: 79%;
+    width:20%;
+    min-height: 0%;
+    padding:0px 0px 0px;
+}
+input[type=text],input[type=password]
+{
+    margin-left: -50px;
+    width:96.5%;
+    padding:10px;
+    margin-top:15px;
+    border:3px solid #8B7765;
+    border-radius: 8px;
+    padding-left:3px;
+    font-size:20px;
+}
+.loginbtn
+{
+    margin-left: 55%;
+    border-radius: 10px;
+    width:30%;
+    background-color: black;
+    color:#fff;
+    border:2px solid #8B7765;
+    padding:8px;
+    font-size:20px;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+#Coffeeindexpic
+{
+    left: 0%;
+    bottom: 0%;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+}
+
+#profile
+
+{
+    padding:50px;
+    border:1px dashed grey;
+    font-size:20px;
+    background-color:#DCE6F7
+}
+#logout
+
+{
+    float:right;
+    padding:5px;
+    border:dashed 1px gray
+}
+a
+
+{
+    text-decoration:none;
+    color:#6495ed
+}
+
+
+/* Profile Page */
+.img{
+    left: 0%;
+    bottom: 0%;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    background-image: url('profile.png');
+}
+
+.container{
+    font-family: inherit;
+    font-size: 40px;
+    font-style: normal;
+    position: absolute;
+    margin-left:43%;
+}
+
+.btn_next{
+    display: inline-block;
+    border: 2px solid #fff;
+    padding:30px 40px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.4s;
+    border-radius: 30px;
+
+}
+
+.button_next{
+    margin-top: 30%;
+    margin-left: -30%;
+}
+
+.btn_in{
+    display: inline-block;
+    border: 2px solid #fff;
+    padding:30px 40px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.4s;
+    border-radius: 30px;
+}
+
+.btn-in{
+    margin-top: -39%;
+    margin-left: 80%;
+}
+
+.btn_out{
+    display: inline-block;
+    border: 2px solid #fff;
+    padding:30px 40px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.4s;
+    border-radius: 30px;
+}
+
+.btn-out{
+    margin-top: -39%;
+    margin-left: 50%;
+}
+
+.btn_next:hover{
+    background: #fff;
+    color: #000;
+}
+
+.btn_in:hover{
+    background: #fff;
+    color: #000;
+}
+
+.btn_out:hover{
+    background: #fff;
+    color: #000;
+}
+/* orders Page */
+.btn {
+    list-style-type: none;
+    width:100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.button{
+    font-style: normal;
+    font-size: 20px;
+    float: left;
+    width:245px;
+    margin: 3px;
+    border: 1.5px solid #996633;
+    background-color: #EEE5DE;
+    color:black ;
+    text-align: center;
+    padding: 10px 20px;
+    transition: 0.2s;
+    border-radius: 7px;
+}
+
+.btn :hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#imagebtn
+{
+    width: 5%;
+    height: auto;
+}
+
+/* employee page */
+.buttonm {
+    background-color:#8B7765 ; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align:center;
+    text-decoration:none;
+    display: inline-block;
+    font-size: 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.buttonme {
+    background-color:#EEDFCC;
+    color:#000000;
+    border: 2px solid #8B7765;
+    width: 500px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 500px;
+    transition: 0.2s;
+}
+
+h2 {
+    float:right;
+    text-align:right;
+    color: 440000;
+    font-size: 36px;
+    margin-right: 50px;
+}
+
+h1 {
+    text-align:left;
+    color: 440000;
+    font-size: 28px;
+    margin-left: 50px;
+}
+
+h3 {
+    text-align:center;
+    color: 440000;
+    font-size: 42px;
+}
+
+h4 {
+    text-align:left;
+    font-size: 28px;
+    margin-left: 50px;
+}
+
+
+.btn {
+    list-style-type: none;
+    width:100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.bg-model{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.modal-content{
+    width: 700px;
+    height: 400px;
+    background-color: white;
+    opacity: 1;
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #8B7765;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top:0;
+    right: 14px;
+    font-size: 42px;
+    transform: rotate(45deg);
+}
+
+
+.btnmenu{
+    list-style-type: none;
+    width:75%;
+    margin-top: 1%;
+    padding: 0;
+    overflow: hidden;
+}
+
+.btn-hot{
+    float: left;
+    width:25%;
+    margin: 30px;
+    font-size: 20px;
+    color: #FF0000;
+    background-color: #FA8072;
+    border: 1.5px solid #FF0000;
+    padding: 10px 20px;
+    transition: 0.2s;
+    border-radius: 7px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-iced{
+    float: left;
+    width:25%;
+    margin: 30px;
+    font-size: 20px;
+    color: #00BFFF;
+    background-color: #B0E2FF;
+    border: 1.5px solid #00BFFF;
+    padding: 10px 20px;
+    transition: 0.2s;
+    border-radius: 7px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-frappe{
+    float: left;
+    width:25%;
+    margin: 30px;
+    font-size: 20px;
+    color: #BF3EFF;
+    background-color: #FFBBFF;
+    border: 1.5px solid #BF3EFF;
+    padding: 10px 20px;
+    transition: 0.2s;
+    border-radius: 7px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/*Menu*/
+.Drink{
+    font-size: 10px;
+    list-style-type: none;
+    border-collapse: collapse;
+    width:70%;
+    float: left;
+    margin-top: 10px;
+    padding: 0;
+    overflow: hidden;
+    -webkit-column-count: 3;
+    -webkit-column-rule-style: none;
+}
+
+.drink1{
+    display:block;
+    width: 40%;
+    margin-left: 30%;
+    background-color: #E8E8E8;
+    border: 1.5px solid #FF0000;
+    padding: 8px 10px;
+    transition: 0.2s;
+    border-radius: 7px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.drink1:hover {
+    background-color: #FA8072;
+    color: #FF0000;
+}
+
+.drink2{
+    display: block;
+    width: 80%;
+    margin-left: 5px;
+    background-color: #E8E8E8;
+    border: 1.5px solid #00BFFF;
+    padding: 8px 10px;
+    transition: 0.2s;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.drink2:hover {
+    background-color: #B0E2FF;
+    color: #00BFFF;
+}
+
+.iced{
+    -webkit-column-count: 2;
+    -webkit-column-rule-style: none;
+}
+
+.drink3{
+    display: block;
+    width: 80%;
+    margin-left: 5px;
+    background-color: #E8E8E8;
+    border: 1.5px solid #BF3EFF;
+    padding: 8px 10px;
+    transition: 0.2s;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.drink3:hover {
+    background-color: #FFBBFF;
+    color: #BF3EFF;
+}
+
+.frappe{
+    -webkit-column-count: 2;
+    -webkit-column-rule-style: none;
+}
+
+.orders{
+    width:29%;
+    border-left: 2px solid #8B7765;
+    float: right;
+    margin-left: -50%;
+    padding: 0;
+}
+
+.od1{
+    margin-top: -15px;
+    margin-left: 10%;
+}
+
+.table{
+    border: none;
+    border-collapse: collapse;
+}
+
+.price{
+    margin-left: 15%;
+}
+
+.confirm{
+    float: bottom;
+    width:100%;
+}
+
+.con{
+    border: 2px solid #00CD00;
+    background-color: #90EE90;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 7px;
+    width:60%;
+    margin-left: 50px;
+}
+
+
+/*warehouse*/
+.btnadd{
+    float: bottom;
+    width:100%;
+}
+
+.BTNadd{
+    border: 2px solid #8B7D7B;
+    background-color: #E0EEEE;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 7px;
+    width:30%;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+
+/*update*/
+.updatewarehouse{
+    float: bottom;
+    width:100%;
+}
+
+.updateadd{
+    border: 2px solid #8B7D7B;
+    background-color: #E0EEEE;
+    text-align: center;
+    float: right;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 7px;
+    width:25%;
+    margin-right: 20%;
+    margin-top: 10%;
+}
+
+.updatedelete{
+    border: 2px solid #8B7D7B;
+    background-color: #E0EEEE;
+    text-align: center;
+    float: left;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 7px;
+    width:25%;
+    margin-left:20%;
+    margin-top: 10%;
+}
+
+.add{
+    border-radius: 7px;
+}
+
+.auto{
+    margin:auto;
+    width:800px;
+}
+/* warehouse page */
+.column {
+    /* Old Chrome, Safari and Opera */
+    -webkit-column-count: 3;
+    -webkit-column-gap: 40px;
+    -webkit-column-rule-style: solid;
+
+    /* Old Firefox */
+    -moz-column-count: 3;
+    -moz-column-gap: 40px;
+    -moz-column-rule-style: solid;
+
+    /* Standard syntax */
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-style: solid;
+}
+.btnmenu{
+    list-style-type: none;
+    width:75%;
+    margin-top: 1%;
+    padding: 0;
+    overflow: hidden;
+}
+
+.btn-hot{
+    float: left;
+    width:25%;
+    margin: 30px;
+    font-size: 20px;
+    color: #FF0000;
+    background-color: #FA8072;
+    border: 1.5px solid #FF0000;
+    padding: 10px 20px;
+    transition: 0.2s;
+    border-radius: 7px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-iced{
+    float: left;
+    width:25%;
+    margin: 30px;
+    font-size: 20px;
+    color: #00BFFF;
+    background-color: #B0E2FF;
+    border: 1.5px solid #00BFFF;
+    padding: 10px 20px;
+    transition: 0.2s;
+    border-radius: 7px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-frappe{
+    float: left;
+    width:25%;
+    margin: 30px;
+    font-size: 20px;
+    color: #BF3EFF;
+    background-color: #FFBBFF;
+    border: 1.5px solid #BF3EFF;
+    padding: 10px 20px;
+    transition: 0.2s;
+    border-radius: 7px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.Drink{
+    font-size: 10px;
+    list-style-type: none;
+    border-collapse: collapse;
+    width:70%;
+    float: left;
+    margin-top: 10px;
+    padding: 0;
+    overflow: hidden;
+    -webkit-column-count: 3;
+    -webkit-column-rule-style: none;
+}
+
+.drink1{
+    display:block;
+    width: 40%;
+    margin-left: 30%;
+    background-color: #E8E8E8;
+    border: 1.5px solid #FF0000;
+    padding: 8px 10px;
+    transition: 0.2s;
+    border-radius: 7px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.drink1:hover {
+    background-color: #FA8072;
+    color: #FF0000;
+}
+
+.drink2{
+    display: block;
+    width: 80%;
+    margin-left: 5px;
+    background-color: #E8E8E8;
+    border: 1.5px solid #00BFFF;
+    padding: 8px 10px;
+    transition: 0.2s;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.drink2:hover {
+    background-color: #B0E2FF;
+    color: #00BFFF;
+}
+
+.iced{
+    -webkit-column-count: 2;
+    -webkit-column-rule-style: none;
+}
+
+.drink3{
+    display: block;
+    width: 80%;
+    margin-left: 5px;
+    background-color: #E8E8E8;
+    border: 1.5px solid #BF3EFF;
+    padding: 8px 10px;
+    transition: 0.2s;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.drink3:hover {
+    background-color: #FFBBFF;
+    color: #BF3EFF;
+}
+
+.frappe{
+    -webkit-column-count: 2;
+    -webkit-column-rule-style: none;
+}
+
+.orders{
+    width:29%;
+    float: right;
+    margin-left: -20%
+    padding: 0;
+}
+
+.Date{
+
+}
+
+.od{
+    font-size: 15px;
+    list-style-type: none;
+    border-collapse: collapse;
+    overflow: hidden;
+    -webkit-column-count: 3;
+    -webkit-column-rule-style: none;
+}
+
+.od1{
+    margin-top: -15px;
+    margin-left: 10%
+}
+
+.input1{
+    margin-left: 10%;
+    margin-right: 8%;
+}
+
+.od2{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.input2{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.od3{
+    margin-left: 5%;
+    margin-right: 8%;
+}
+
+.input3{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.auto{
+    margin:auto;
+    width:800px;
+}
+.btnindy{
+    display: inline-block;
+    border: 2px solid #fff;
+    padding:30px 40px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.4s;
+    border-radius: 30px;
+}

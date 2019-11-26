@@ -1,0 +1,11 @@
+<?php
+
+include('connect.php');
+
+	$mysql_input = "INSERT INTO add_order (Add_MenuName,Add_MenuPrice) value ('คาปูชิโน่ร้อน',50)";
+
+	mysqli_query($db, $mysql_input);
+
+	echo "<head><meta http-equiv='Refresh'content = '0; URL = orders.php'></head>";
+
+?>
